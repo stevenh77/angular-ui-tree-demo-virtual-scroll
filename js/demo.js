@@ -12,8 +12,8 @@
     $scope.addData = function(scope) {      
       //$scope.list = data_eight;
       //$scope.list = data_one_hundred;
-      $scope.list = data_one_thou;
-      //$scope.list = data_ten_thou;
+      //$scope.list = data_one_thou;
+      $scope.list = data_ten_thou;
     }
     
     $scope.removeAll = function(scope) {      

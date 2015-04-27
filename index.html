@@ -39,7 +39,7 @@
                 </ol>
               </script>
 			<div class="row" style="height: 200px; overflow-y: scroll;">
-              <div ui-tree="options">
+              <div ui-tree="options" data-drop-enabled="false" data-drag-enabled="false">
                 <ol ui-tree-nodes ng-model="list" vs-repeat>
                   <li ng-repeat="item in list" ui-tree-node ng-include="'items_renderer.html'"></li>
                 </ol>
